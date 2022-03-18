@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TUGAS_PAM_672019228/app/src/main/res/drawable/ic_music.xml" value="0.2203125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/TUGAS_PAM_672019228/app/src/main/res/drawable/ic_pause.xml" value="0.11197916666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/TUGAS_PAM_672019228/app/src/main/res/drawable/ic_play.xml" value="0.1" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/TUGAS_PAM_672019228/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TUGAS_PAM_672019228/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/TUGAS_PAM_672019228/app/src/main/res/layout/activity_music_player.xml" value="0.18" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/TUGAS_PAM_672019228/app/src/main/res/layout/recycler_item.xml" value="0.22" />
       </map>

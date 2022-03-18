@@ -40,9 +40,6 @@ public class MusicPlayerActivity extends AppCompatActivity {
         previousBtn = findViewById(R.id.previous);
         musicIcon = findViewById(R.id.music_icon);
 
-
-
-
         titleTv.setSelected(true);
 
         songsList = (ArrayList<AudioModel>) getIntent().getSerializableExtra("LIST");

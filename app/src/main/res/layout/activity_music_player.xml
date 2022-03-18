@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_500"
+    android:background="#3F51B5"
     tools:context=".MusicPlayerActivity">
     <TextView
         android:id="@+id/song_title"
@@ -75,6 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/total_time"
             android:padding="20dp">
+
             <ImageView
                 android:id="@+id/previous"
                 android:layout_width="wrap_content"

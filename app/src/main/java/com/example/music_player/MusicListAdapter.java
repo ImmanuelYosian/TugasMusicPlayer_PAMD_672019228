@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -27,7 +26,7 @@ public class MusicListAdapter extends RecyclerView.Adapter<MusicListAdapter.View
 
     @Override
     public ViewHolder onCreateViewHolder( ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.recycler_item,parent,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.itemlist_view,parent,false);
         return new MusicListAdapter.ViewHolder(view);
 
     }
@@ -36,6 +35,12 @@ public class MusicListAdapter extends RecyclerView.Adapter<MusicListAdapter.View
     public void onBindViewHolder(MusicListAdapter.ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         AudioModel songData = songsList.get(position);
         holder.titleTextView.setText(songData.getTitle());
+
+        if (MusicPlayer.currentIndex == position){
+            holder.titleTextView.setTextColor(Color.parseColor("#FFFFFFFF"));
+        } else {
+            holder.titleTextView.setTextColor(Color.parseColor("#FF808080"));
+        }
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#3F51B5">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/list_music"
         android:text="My MusicPlayer"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20dp"
-        android:textStyle="italic"
+        android:textStyle="bold"
         android:padding="10dp"
         android:layout_centerHorizontal="true"/>
     <TextView

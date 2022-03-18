@@ -72,6 +72,13 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this,"READ PERMISSION IS REQUIRED,PLEASE ALLOW FROM SETTINGS",Toast.LENGTH_SHORT);
         }else
             ActivityCompat.requestPermissions(MainActivity.this,new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},123);
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (recyclerView!=null){
+            recyclerView.setAdapter(new MusicListAdapter(songList,getApplicationContext()));
+        }
     }
 }
