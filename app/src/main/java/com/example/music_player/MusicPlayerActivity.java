@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 public class MusicPlayerActivity extends AppCompatActivity {
 
-    TextView titleTv,currentTimeTv,totalTimeTv;
+    TextView titleTv,currentTimeTv,totalTimeTv,music_player;
     SeekBar seekBar;
     ImageView pausePlay,nextBtn,previousBtn,musicIcon;
     ArrayList<AudioModel> songsList;
@@ -39,6 +39,7 @@ public class MusicPlayerActivity extends AppCompatActivity {
         nextBtn = findViewById(R.id.next);
         previousBtn = findViewById(R.id.previous);
         musicIcon = findViewById(R.id.music_icon);
+        music_player = findViewById(R.id.music_player);
 
         titleTv.setSelected(true);
 

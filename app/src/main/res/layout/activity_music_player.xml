@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     android:background="#3F51B5"
     tools:context=".MusicPlayerActivity">
+
+    <TextView
+        android:id="@+id/music_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="My MusicPlayer"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/song_title"
         android:layout_width="match_parent"
